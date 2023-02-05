@@ -1,0 +1,132 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/SwerveModuleSM": "Subsystem",
+      "/LiveWindow/Ungrouped/PIDController[10]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[11]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[12]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[13]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[14]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[15]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[16]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[17]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[18]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[19]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[20]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[21]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[22]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[23]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[24]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[25]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[2]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[3]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[4]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[5]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[6]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[7]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[8]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[9]": "PIDController",
+      "/LiveWindow/Ungrouped/PWMSparkMax[0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[1]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[3]": "Motor Controller",
+      "/LiveWindow/Ungrouped/navX-Sensor[4]": "Gyro",
+      "/Shuffleboard/Grid/GridLevel": "String Chooser",
+      "/Shuffleboard/Grid/GridSlot": "String Chooser",
+      "/Shuffleboard/Grid/PieceType": "String Chooser",
+      "/Shuffleboard/Grid/SetSlot": "Command",
+      "/SmartDashboard/Arm Sim": "Mechanism2d",
+      "/SmartDashboard/Auto Selector": "String Chooser",
+      "/SmartDashboard/Drive": "Subsystem",
+      "/SmartDashboard/DriveSubsystem": "Subsystem",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/Field2d": "Field2d",
+      "/SmartDashboard/Grippers": "Subsystem",
+      "/SmartDashboard/Lin Arm": "Subsystem",
+      "/SmartDashboard/LinArm Sim": "Mechanism2d",
+      "/SmartDashboard/Scheduler": "Scheduler",
+      "/SmartDashboard/TrajChoice": "String Chooser",
+      "/SmartDashboard/Turn Arm Sim": "Mechanism2d",
+      "/SmartDashboard/TurnArm": "Subsystem"
+    },
+    "windows": {
+      "/FMSInfo": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field2d": {
+        "AprilTag1": {
+          "arrowSize": 26,
+          "arrowWeight": 3.0,
+          "color": [
+            0.8391856551170349,
+            0.8507462739944458,
+            0.07618621736764908,
+            255.0
+          ],
+          "selectable": false,
+          "style": "Line (Closed)"
+        },
+        "Robot": {
+          "image": "C:\\Users\\John\\Documents\\FRC2023\\SwerveControllerCommand-Arrays-PHVIs-2023\\src\\main\\images\\robot.png",
+          "length": 0.800000011920929,
+          "width": 0.5860000252723694
+        },
+        "Swerve Modules": {
+          "image": "C:\\Users\\John\\Documents\\FRC2023\\SwerveControllerCommand-Arrays-PHVIs-2023\\src\\main\\images\\swerve_module.png",
+          "length": 0.5,
+          "style": "Box/Image",
+          "width": 0.4000000059604645
+        },
+        "image": "C:\\Users\\John\\Documents\\FRC2023\\SwerveControllerCommand-Arrays-PHVIs-2023\\src\\main\\images\\Field2d_2023.png",
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/LinArm Sim": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/TrajChoice": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Turn Arm Sim": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "transitory": {
+      "Preferences": {
+        "open": true
+      },
+      "Shuffleboard": {
+        ".metadata": {
+          "open": true
+        },
+        "LimelightVision": {
+          "A": {
+            "open": true
+          },
+          "open": true
+        }
+      },
+      "SmartDashboard": {
+        "Scheduler": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  }
+}
